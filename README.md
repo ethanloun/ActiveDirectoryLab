@@ -40,7 +40,7 @@ As seen by the Autoconfiguration IPv4 Address(169.254.196.79). This was automati
 <p align="center">
 Assigning IP Address: <br/>
 
-Assigning IP to Internal. Not assinging Default Gateway because the DC will serve as the Default Gateway. Using Loopback for DNS. 
+Assigning IP to Internal. Not assigning Default Gateway because the DC will serve as the Default Gateway. Using Loopback for DNS. 
 
 ![Image](https://github.com/user-attachments/assets/340aff3b-233f-4405-a691-e3d8c47726fc)
 
@@ -83,7 +83,7 @@ Using public interface to connect to Internet, using the Internet interface.
 <p align="center">
 Adding DHCP Server: <br/>
 
-Allow Windows 10 Client to obtain IP Address that will let them browse the Internet.
+This will allow the Windows 10 Client to obtain IP Address that will let them browse the Internet.
 
 ![Image](https://github.com/user-attachments/assets/966ce7e2-5061-4fd9-a068-51dae4acbf50)
 
@@ -111,7 +111,7 @@ Domain Controller is the DNS Server otherwise I can not join the domain.
 <p align="center">
 Powershell Script to Create 1k+ Users: <br/>
 
-All users have the username of their first inital with last name and the default password.
+All users have a username of their first inital with last name and the default password of Password1.
 
 ![Image](https://github.com/user-attachments/assets/b2ee50b7-41c2-4ade-9b2d-64432fa1af67)
 
@@ -134,6 +134,8 @@ Setting up the second VirtualBox with Windows 10.
 
 <p align="center">
 Check for Internet on Client: <br/>
+
+Using ipconfig command to check the network configuration.
 
 ![Image](https://github.com/user-attachments/assets/547cccd6-83d6-460a-b9a6-5d79b5aeed33)
 

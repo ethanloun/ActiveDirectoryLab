@@ -90,20 +90,28 @@ Allow Windows 10 Client to obtain IP Address that will let them browse the Inter
 <p align="center">
 Scope of DHCP: <br/>
 
+Using Scope of 172.16.0.100-200
+
 ![Image](https://github.com/user-attachments/assets/a45786b7-d06b-446d-adcb-3f3cbc723a73)
 
 <p align="center">
-Defining Deault Gateway: <br/>
+Defining Default Gateway: <br/>
+
+Using Internal NIC as Router/Default Gateway(172.16.0.1)
 
 ![Image](https://github.com/user-attachments/assets/32d7acbb-3cbe-4bf7-bed3-850e133b828a)
 
 <p align="center">
 DNS is set up: <br/>
 
+Domain Controller is the DNS Server otherwise I can not join the domain.
+
 ![Image](https://github.com/user-attachments/assets/f10577c8-0f94-4ae9-a22c-0e1ac71de7e3)
 
 <p align="center">
 Powershell Script to Create 1k+ Users: <br/>
+
+All users have the username of their first inital with last name and the default password.
 
 ![Image](https://github.com/user-attachments/assets/b2ee50b7-41c2-4ade-9b2d-64432fa1af67)
 
@@ -118,12 +126,9 @@ Users are set: <br/>
 ![Image](https://github.com/user-attachments/assets/17b266a8-2b51-4b4e-8dfc-94ede9e030a1)
 
 <p align="center">
-Scope of DHCP: <br/>
-
-![Image](https://github.com/user-attachments/assets/a45786b7-d06b-446d-adcb-3f3cbc723a73)
-
-<p align="center">
 Set Up Client with Windows 10: <br/>
+
+Setting up the second VirtualBox with Windows 10. 
 
 ![Image](https://github.com/user-attachments/assets/fd5124cb-4580-4467-9ba5-896eee0833a3)
 
@@ -135,14 +140,20 @@ Check for Internet on Client: <br/>
 <p align="center">
 Ping for Connectivity: <br/>
 
+Google resolved which means the DNS Server is working. Using the DC as the Default Gateway to reach the Internet and then sends an echo reply. 
+
 ![Image](https://github.com/user-attachments/assets/4ac75d10-ddf3-4f8b-9d58-614464aedab8)
 
 <p align="center">
 Joining Client to Domain: <br/>
 
+Rename computer and join Domain. 
+
 ![Image](https://github.com/user-attachments/assets/9f85b72f-78d6-419d-9eb7-df244173142a)
 
 <p align="center">
 Now Member of Domain: <br/>
+
+Checking the Address Leases I can see that the Client reached out to the DHCP and obtained an IP Address. Now I can use any of those user's names to login. 
 
 ![Image](https://github.com/user-attachments/assets/6dc98ab7-cad3-4332-81f2-d27d99b292a5)

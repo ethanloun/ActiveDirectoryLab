@@ -19,20 +19,28 @@ I set up an Active Directory home lab using Oracle VirtualBox to simulate a Wind
 <p align="center">
 Booting up with Server 2019: <br/>
 
+Setting up the first VirtualBox with Server 19. This will act as the Domain Controller.
+
 ![Image](https://github.com/user-attachments/assets/bfc1e23f-4edd-48ec-a3fd-5a716c1db07a)
 
 <p align="center">
 Identify Internet NIC: <br/>
+
+As seen by the IPv4 Address(10.0.2.15)
 
 ![Image](https://github.com/user-attachments/assets/ca2e0c82-c22f-4b19-bbaa-3756b0113153)
 
 <p align="center">
 Identify Internal NIC: <br/>
 
+As seen by the Autoconfiguration IPv4 Address(169.254.196.79). This was automatically assigned due to the DHCP server being unreachable.
+
 ![Image](https://github.com/user-attachments/assets/14229ad2-b9c0-41c2-8cc7-04e2eddc3a77)
 
 <p align="center">
 Assigning IP Address: <br/>
+
+Assigning IP to Internal. Not assinging Default Gateway because the DC will serve as the Default Gateway. Using Loopback for DNS. 
 
 ![Image](https://github.com/user-attachments/assets/340aff3b-233f-4405-a691-e3d8c47726fc)
 
@@ -49,6 +57,8 @@ Creating Domain: <br/>
 <p align="center">
 Setting up Admin Account: <br/>
 
+Creating my own Admin Account instead of default account.
+
 ![Image](https://github.com/user-attachments/assets/5584b311-a59f-4760-855a-7281f9937f31)
 
 <p align="center">
@@ -59,15 +69,21 @@ Domain Admin Account: <br/>
 <p align="center">
 Setting up Remote Access Server: <br/>
 
+RAS and NAT will allow the Windows 10 Client to be on a virtual private network while still being able to access the Internet through the DC.
+
 ![Image](https://github.com/user-attachments/assets/da316d3d-b075-402d-81a1-b0a71d2eca05)
 
 <p align="center">
 Configure Network Address Translation to Internet: <br/>
 
+Using public interface to connect to Internet, using the Internet interface.
+
 ![Image](https://github.com/user-attachments/assets/fbff6678-9b08-4ac2-83e7-0766e98514bf)
 
 <p align="center">
 Adding DHCP Server: <br/>
+
+Allow Windows 10 Client to obtain IP Address that will let them browse the Internet.
 
 ![Image](https://github.com/user-attachments/assets/966ce7e2-5061-4fd9-a068-51dae4acbf50)
 

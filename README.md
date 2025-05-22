@@ -18,8 +18,12 @@ I set up an Active Directory home lab using Oracle VirtualBox to simulate a Wind
 
 <p align="center">
 Booting up with Server 2019: <br/>
-<img src="https://imgur.com/a/ZvlU6fb" height="80%" width="80%">
+<img src="https://imgur.com/18y4SaB" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-
+<p align="center">
+Launch the utility: <br/>
+<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
 

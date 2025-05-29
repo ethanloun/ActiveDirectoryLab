@@ -14,6 +14,10 @@ I set up an Active Directory home lab using Oracle VirtualBox to simulate a Wind
 - <b>Windows 10</b> (22H2)
 - <b>Server 2019</b>
 
+<h2>Overview:</h2>
+
+![Image](https://github.com/user-attachments/assets/93cf18a1-e5e2-4cf9-ab5a-5e9efb993f7a)
+
 <h2>Walk-through:</h2>
 
 <p align="center">
